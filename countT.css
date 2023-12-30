@@ -1,0 +1,41 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: sans-serif;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url(https://wallpapercave.com/wp/wp8814027.jpg);
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.counter{
+
+    width:360px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    /* background-color: white; */
+    /* border-radius: 6px; */
+    padding:2rem;
+}
+
+.counter p {
+    font-size: 0.8rem;
+    padding:1.2rem;
+}
+
+.counter p span{
+    display: block;
+    font-size: 1.8rem;
+}
+
+
+
